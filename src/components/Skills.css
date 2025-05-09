@@ -1,0 +1,27 @@
+.skills-section {
+  background: var(--bs-light);
+  border-radius: 16px;
+}
+
+.skill-card {
+  padding: 20px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.skill-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.skill-name {
+  font-weight: 600;
+  font-size: 18px;
+}

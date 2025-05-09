@@ -1,0 +1,33 @@
+.project-img-wrapper {
+  position: relative;
+}
+
+.project-img-wrapper img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: .375rem;
+  border-top-right-radius: .375rem;
+}
+
+.github-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 6px;
+  border-radius: 50%;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.github-icon:hover {
+  background: #000;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
